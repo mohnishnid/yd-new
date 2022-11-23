@@ -12,6 +12,14 @@
   font-family: secondary_bold;
   src: url(../fonts/ProximaNova-Bold.otf);
 }
+@font-face {
+  font-family: secondary_light;
+  src: url(../fonts/ProximaLight.otf);
+}
+@font-face {
+  font-family: secondary_thin;
+  src: url(../fonts/ProximaThin.otf);
+}
 
 :root {
   --cream: #f7e5da;
@@ -151,7 +159,9 @@ em {
 .messages p {
   margin-bottom: 5px;
   line-height: 20px;
-  font-size: 18px;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  font-family: secondary_thin, sans-serif;
 }
 .mobile-menu,
 .m-student-detail {
@@ -160,10 +170,11 @@ em {
 .yd-modal {
   display: none;
 }
+.font_primary {
+  font-family: primary, sans-serif;
+}
 .message-from21 {
   font-size: 16px;
-
-  font-family: "Be Vietnam", sans-serif;
 }
 .message-from21 h1 {
   font-weight: 700;
