@@ -443,31 +443,31 @@ hr {
 }
 /* inter diciplinary */
 .hr-cmd-active {
-  border: var(--cream) solid 5px;
-  border-radius: 50px;
-  width: 70%;
-}
-
-.hr-idd-active {
   border: var(--yellow) solid 5px;
   border-radius: 50px;
   width: 70%;
 }
 
-.hr-txd-active {
+.hr-idd-active {
   border: var(--orange) solid 5px;
+  border-radius: 50px;
+  width: 70%;
+}
+
+.hr-txd-active {
+  border: var(--purple) solid 5px;
   border-radius: 0.25rem;
   width: 70%;
 }
 
 .hr-itd-active {
-  border: var(--pink) solid 5px;
+  border: var(--dark_purple) solid 5px;
   border-radius: 0.25rem;
   width: 70%;
 }
 
 .hr-ind-active {
-  border: var(--purple) solid 5px;
+  border: var(--pink) solid 5px;
   border-radius: 50px;
   width: 70%;
 }
@@ -812,7 +812,7 @@ span.two {
   position: fixed;
   background-color: white;
   height: 100vh;
-  width: 30%;
+  width: 28%;
   top: -100%;
   right: 0;
   border: 2px solid lightgrey;
