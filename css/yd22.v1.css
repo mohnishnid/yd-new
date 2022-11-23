@@ -4,22 +4,6 @@
   font-family: primary;
   src: url(../fonts/AesthetBold.ttf);
 }
-@font-face {
-  font-family: secondary;
-  src: url(../fonts/ProximaNova-Regular.otf);
-}
-@font-face {
-  font-family: secondary_bold;
-  src: url(../fonts/ProximaNova-Bold.otf);
-}
-@font-face {
-  font-family: secondary_light;
-  src: url(../fonts/ProximaLight.otf);
-}
-@font-face {
-  font-family: secondary_thin;
-  src: url(../fonts/ProximaThin.otf);
-}
 
 :root {
   --cream: #f7e5da;
@@ -49,7 +33,7 @@ body {
 body {
   margin: 0px;
   padding: 0px;
-  font-family: secondary, sans-serif;
+  font-family: "Manrope", sans-serif;
   color: var(--cream);
   background-color: var(--dark_purple_high);
 }
