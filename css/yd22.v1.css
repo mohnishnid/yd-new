@@ -899,8 +899,6 @@ span.two {
   transform: rotate(180deg);
 }
 .accordian img {
-  z-index: -1;
-  opacity: 0.5;
   transition: all 1s ease-in-out;
 }
 .accordian img:hover {
@@ -955,16 +953,19 @@ h3 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: var(--cream);
+  color: var(--dark_purple_high);
 }
 .interesting-accordian1 {
-  max-width: 80vw;
+  max-width: 90vw;
+  padding: 3vw;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--cream);
+  border-radius: 100px;
 }
 .interesting-accordian1 {
-  max-width: 80vw;
+  max-width: 90vw;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -979,12 +980,12 @@ h3 {
 
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 30vh;
+  justify-content: space-around;
+  height: 35vh;
   width: 12vw;
   padding: auto;
   cursor: pointer;
-  overflow: hidden;
+  overflow: visible;
   box-sizing: border-box;
   position: relative;
   transition: all 0.5s ease;
@@ -992,22 +993,26 @@ h3 {
 }
 
 .interesting-accordian1 .accordian-titles {
-  position: absolute;
+  position: relative;
 
   text-align: center;
   transition: all 0.5s ease;
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .interesting-accordian1 .accordian-details {
-  width: 20vw;
+  width: auto;
   opacity: 0;
   font-weight: bold;
   overflow: visible;
   position: absolute;
   text-align: center;
-  font-size: 1.2vw;
+  font-size: 20px;
   transition: opacity 0.5s linear;
+  background-color: var(--cream);
+  border-radius: 2rem;
+  padding: 1rem;
 }
 
 .interesting-accordian1 .accordian:hover {
@@ -1023,6 +1028,7 @@ h3 {
 }
 .interesting-accordian1 .accordian:hover img {
   transform: rotate(90deg);
+  opacity: 0.3;
 }
 
 @media only screen and (max-width: 768px) {
