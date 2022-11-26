@@ -13,6 +13,7 @@
   --orange: #fe6a39;
   --purple: #792151;
   --dark_purple: #4d163a;
+  --dark_purple_shadow: #4d163a5e;
   --dark_purple_low: #4d163a20;
   --dark_purple_high: #330e26;
   --white: #ffffff;
@@ -962,6 +963,10 @@ h3 {
   justify-content: center;
   background-color: var(--cream);
 }
+.purple_shadow {
+  box-shadow: 0px 10px 20px var(--dark_purple_shadow);
+}
+
 .interesting-accordian1 {
   width: 100%;
   display: flex;
