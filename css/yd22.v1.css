@@ -966,6 +966,7 @@ h3 {
 }
 .interesting-accordian1 {
   max-width: 90vw;
+  width: 100vw;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
