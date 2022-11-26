@@ -963,7 +963,7 @@ h3 {
   background-color: var(--cream);
 }
 .interesting-accordian1 {
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
