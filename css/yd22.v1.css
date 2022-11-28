@@ -125,7 +125,7 @@ em {
 .preloader-gif img {
   border-radius: 200px;
 
-  transform: scale(0.5);
+  transform: scale(0.9);
 }
 .nid_logo {
   position: absolute;
@@ -625,10 +625,14 @@ hr {
 }
 
 .discipline-bar .col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 2px 1rem;
   text-align: center;
   margin: 0.5rem 3rem;
   transition: 0.6s ease;
+  width: 100%;
 }
 
 .discipline-bar .col a {
