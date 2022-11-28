@@ -118,6 +118,7 @@ em {
   background-color: var(--loading);
   padding: 0;
   margin: 0;
+  opacity: 1;
 }
 .preloader-gif img {
   border-radius: 200px;
