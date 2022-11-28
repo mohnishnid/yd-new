@@ -37,6 +37,7 @@ body {
   font-family: "Manrope", sans-serif;
   color: var(--cream);
   background-color: var(--dark_purple_high);
+  overflow-x: hidden;
 }
 
 .pl-6 {
@@ -350,7 +351,7 @@ em {
 .design-faculty-bar .col {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   gap: 1rem;
   padding: 0;
@@ -518,9 +519,9 @@ hr {
 }
 
 .hr-sort-inactive {
-  border: var(--cream) solid 8px;
+  border: var(--grey) solid 8px;
 
-  width: 70%;
+  width: 100%;
 }
 
 .bg-cream {
