@@ -119,6 +119,8 @@ em {
   padding: 0;
   margin: 0;
   opacity: 1;
+  user-select: none;
+  pointer-events: none;
 }
 .preloader-gif img {
   border-radius: 200px;
